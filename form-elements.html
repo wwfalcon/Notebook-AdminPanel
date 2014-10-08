@@ -23,61 +23,64 @@
 </head>
 <body>
   <section class="vbox">
-    <header class="bg-dark dk header navbar navbar-fixed-top-xs">
+    <header class="bg-primary dk header navbar navbar-fixed-top-xs">
       <div class="navbar-header aside-md">
         <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
           <i class="fa fa-bars"></i>
         </a>
-        <a href="#" class="navbar-brand" data-toggle="fullscreen"><img src="images/logo.png" class="m-r-sm">Notebook</a>
+        <a href="#" class="navbar-brand fa-align-center" data-toggle="fullscreen">
+            <!--<img src="images/logo.png" class="m-r-sm">-->
+            Your Logo
+        </a>
         <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".nav-user">
           <i class="fa fa-cog"></i>
         </a>
       </div>
-      <ul class="nav navbar-nav hidden-xs">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle dker" data-toggle="dropdown">
-            <i class="fa fa-building-o"></i> 
-            <span class="font-bold">Activity</span>
-          </a>
-          <section class="dropdown-menu aside-xl on animated fadeInLeft no-borders lt">
-            <div class="wrapper lter m-t-n-xs">
-              <a href="#" class="thumb pull-left m-r">
-                <img src="images/avatar.jpg" class="img-circle">
-              </a>
-              <div class="clear">
-                <a href="#"><span class="text-white font-bold">@Mike Mcalidek</a></span>
-                <small class="block">Art Director</small>
-                <a href="#" class="btn btn-xs btn-success m-t-xs">Upgrade</a>
-              </div>
-            </div>
-            <div class="row m-l-none m-r-none m-b-n-xs text-center">
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <span class="m-b-xs h4 block text-white">245</span>
-                  <small class="text-muted">Followers</small>
-                </div>
-              </div>
-              <div class="col-xs-4 dk">
-                <div class="padder-v">
-                  <span class="m-b-xs h4 block text-white">55</span>
-                  <small class="text-muted">Likes</small>
-                </div>
-              </div>
-              <div class="col-xs-4">
-                <div class="padder-v">
-                  <span class="m-b-xs h4 block text-white">2,035</span>
-                  <small class="text-muted">Photos</small>
-                </div>
-              </div>
-            </div>
-          </section>
-        </li>
-        <li>
-          <div class="m-t m-l">
-            <a href="price.html" class="dropdown-toggle btn btn-xs btn-primary" title="Upgrade"><i class="fa fa-long-arrow-up"></i></a>
-          </div>
-        </li>
-      </ul>      
+      <!--<ul class="nav navbar-nav navbar-right hidden-xs">-->
+        <!--<li class="dropdown">-->
+          <!--<a href="#" class="dropdown-toggle dker" data-toggle="dropdown">-->
+            <!--<i class="fa fa-lightbulb-o"></i>-->
+            <!--<span class="font-bold">Activity</span>-->
+          <!--</a>-->
+          <!--<section class="dropdown-menu aside-xl on animated fadeInLeft no-borders lt">-->
+            <!--<div class="wrapper lter m-t-n-xs">-->
+              <!--<a href="#" class="thumb pull-left m-r">-->
+                <!--<img src="images/avatar.jpg" class="img-circle">-->
+              <!--</a>-->
+              <!--<div class="clear">-->
+                <!--<a href="#"><span class="text-white font-bold">@Mike Mcalidek</a></span>-->
+                <!--<small class="block">Art Director</small>-->
+                <!--<a href="#" class="btn btn-xs btn-success m-t-xs">Upgrade</a>-->
+              <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row m-l-none m-r-none m-b-n-xs text-center">-->
+              <!--<div class="col-xs-4">-->
+                <!--<div class="padder-v">-->
+                  <!--<span class="m-b-xs h4 block text-white">245</span>-->
+                  <!--<small class="text-muted">Followers</small>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="col-xs-4 dk">-->
+                <!--<div class="padder-v">-->
+                  <!--<span class="m-b-xs h4 block text-white">55</span>-->
+                  <!--<small class="text-muted">Likes</small>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<div class="col-xs-4">-->
+                <!--<div class="padder-v">-->
+                  <!--<span class="m-b-xs h4 block text-white">2,035</span>-->
+                  <!--<small class="text-muted">Photos</small>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</section>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--&lt;!&ndash;<div class="m-t m-l">&ndash;&gt;-->
+            <!--&lt;!&ndash;<a href="price.html" class="dropdown-toggle btn btn-xs btn-primary" title="Upgrade"><i class="fa fa-long-arrow-up"></i></a>&ndash;&gt;-->
+          <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--</li>-->
+      <!--</ul>      -->
       <ul class="nav navbar-nav navbar-right m-n hidden-xs nav-user">
         <li class="hidden-xs">
           <a href="#" class="dropdown-toggle dk" data-toggle="dropdown">
@@ -92,7 +95,7 @@
               <div class="list-group list-group-alt animated fadeInRight">
                 <a href="#" class="media list-group-item">
                   <span class="pull-left thumb-sm">
-                    <img src="images/avatar.jpg" alt="John said" class="img-circle">
+                    <img src="images/avatar_default.jpg" alt="John said" class="img-circle">
                   </span>
                   <span class="media-body block m-b-none">
                     Use awesome animate.css<br>
@@ -133,9 +136,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <span class="thumb-sm avatar pull-left">
-              <img src="images/avatar.jpg">
+              <img src="images/avatar_default.jpg">
             </span>
-            John.Smith <b class="caret"></b>
+            User.Name <b class="caret"></b>
           </a>
           <ul class="dropdown-menu animated fadeInRight">
             <span class="arrow top"></span>
@@ -167,22 +170,22 @@
         <!-- .aside -->
         <aside class="bg-light lter b-r aside-md hidden-print" id="nav">          
           <section class="vbox">
-            <header class="header bg-primary lter text-center clearfix">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-dark btn-icon" title="New project"><i class="fa fa-plus"></i></button>
-                <div class="btn-group hidden-nav-xs">
-                  <button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown">
-                    Switch Project
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu text-left">
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Another Project</a></li>
-                    <li><a href="#">More Projects</a></li>
-                  </ul>
-                </div>
-              </div>
-            </header>
+            <!--<header class="header bg-primary lter text-center clearfix">-->
+              <!--<div class="btn-group">-->
+                <!--<button type="button" class="btn btn-sm btn-dark btn-icon" title="New project"><i class="fa fa-plus"></i></button>-->
+                <!--<div class="btn-group hidden-nav-xs">-->
+                  <!--<button type="button" class="btn btn-sm btn-primary dropdown-toggle" data-toggle="dropdown">-->
+                    <!--Switch Project-->
+                    <!--<span class="caret"></span>-->
+                  <!--</button>-->
+                  <!--<ul class="dropdown-menu text-left">-->
+                    <!--<li><a href="#">Project</a></li>-->
+                    <!--<li><a href="#">Another Project</a></li>-->
+                    <!--<li><a href="#">More Projects</a></li>-->
+                  <!--</ul>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</header>-->
             <section class="w-f scrollable">
               <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333">
                 
@@ -192,7 +195,7 @@
                     <li >
                       <a href="index.html"  >
                         <i class="fa fa-dashboard icon">
-                          <b class="bg-danger"></b>
+                          <b class="bg-dark"></b>
                         </i>
                         <span>Workset</span>
                       </a>
@@ -200,7 +203,7 @@
                     <li >
                       <a href="#layout"  >
                         <i class="fa fa-columns icon">
-                          <b class="bg-warning"></b>
+                          <b class="bg-dark"></b>
                         </i>
                         <span class="pull-right">
                           <i class="fa fa-angle-down text"></i>
@@ -232,7 +235,7 @@
                     <li  class="active">
                       <a href="#uikit"   class="active">
                         <i class="fa fa-flask icon">
-                          <b class="bg-success"></b>
+                          <b class="bg-dark"></b>
                         </i>
                         <span class="pull-right">
                           <i class="fa fa-angle-down text"></i>
@@ -362,7 +365,7 @@
                     <li >
                       <a href="#pages"  >
                         <i class="fa fa-file-text icon">
-                          <b class="bg-primary"></b>
+                          <b class="bg-dark"></b>
                         </i>
                         <span class="pull-right">
                           <i class="fa fa-angle-down text"></i>
@@ -443,7 +446,7 @@
                       <a href="mail.html"  >
                         <b class="badge bg-danger pull-right">3</b>
                         <i class="fa fa-envelope-o icon">
-                          <b class="bg-primary dker"></b>
+                          <b class="bg-dark dker"></b>
                         </i>
                         <span>Message</span>
                       </a>
@@ -451,7 +454,7 @@
                     <li >
                       <a href="notebook.html"  >
                         <i class="fa fa-pencil icon">
-                          <b class="bg-info"></b>
+                          <b class="bg-dark"></b>
                         </i>
                         <span>Notes</span>
                       </a>
